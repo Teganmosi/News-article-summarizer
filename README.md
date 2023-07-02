@@ -1,2 +1,3 @@
 # News-article-summarizer
 This repo contains a Python script that uses langchain, deeplake, openai and newspaper3k libraries to scrape and summarize online articles.
+ The script can generate summaries in two formats: a paragraph and a bulleted list. The script uses the gpt-3.5-turbo model from openai with a temperature of 0. To run the script, you need to install the required libraries and set your openai api key in a .env file. You can also change the article url and the model parameters as you wish. This repo is intended for educational purposes only and is not affiliated with any of the libraries or websites used.
